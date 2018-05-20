@@ -11,6 +11,10 @@ use App\Contracts\mealsInterface;
 use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
+
+
+
+
 class MealsController extends Controller
 {
 
@@ -46,6 +50,8 @@ class MealsController extends Controller
         //nz kak da primjenim setLang funkciju nad $meals i tako da  se poziva svaka funkcija
         //iz repo kako bi se provjerilo jel postoji query uvijet i da se nadodaju uvijeti
         //$meals = $meals->setLang($request);
+
+
 
 
 

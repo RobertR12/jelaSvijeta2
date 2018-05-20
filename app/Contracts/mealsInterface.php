@@ -5,7 +5,7 @@
 
 interface mealsInterface {
 
-    //public function setLang($langId);
+    public function setLang($langId);
     public function selectAll();
     public function checkId($id);
     public function checkCat($catId);

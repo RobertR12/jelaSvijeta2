@@ -1,6 +1,6 @@
 <?php
 namespace App\Repositories\Eloquent;
-namespace App\Http;
+
 use App\Meal;
 use App\Contracts\mealsInterface;
 use Illuminate\Http\Request;
@@ -8,6 +8,8 @@ use App\Http\Controllers;
 use App\Http\Controllers\MealsController;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Model;
+
+
 
 
     class MealsRepository implements mealsInterface {
@@ -70,7 +72,7 @@ use Illuminate\Database\Eloquent\Model;
         {
             if(isset($para['diff_time'])) {
 
-                $time =$para['diff_time'];
+                $time = $para['diff_time'];
 
                 if( is_int($para['diff_time'] > 0)){
 
