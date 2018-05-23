@@ -12,7 +12,7 @@ use Illuminate\Database\Eloquent\Model;
 
 
 
-    class MealsRepository implements mealsInterface {
+    abstract class MealsRepository implements mealsInterface {
 
 
 
